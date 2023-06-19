@@ -16,7 +16,7 @@ class Queue(AbstractQueue):
 
     def is_empty(self):
         return self._data == []
-    
+
     def dequeue(self):
         if not self.is_empty():
             return self._data.pop(0)
